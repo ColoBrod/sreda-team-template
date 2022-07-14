@@ -1,0 +1,77 @@
+:root {
+
+}
+
+body {
+  background: rgb(232, 234, 242);
+}
+
+/**
+ * Header
+ */
+
+.navbar-light button.navbar-toggler {
+  /* color: #3b4deb;
+  border-color: #3b4deb; */
+}
+button.navbar-toggler .navbar-toggler-icon {
+  /* color: #3b4deb; */
+}
+
+#logo {
+  height: 3rem;
+}
+
+header {
+  width: 100%;
+  background: rgb(219, 228, 255);
+}
+
+#btn-login {
+  background: #3b4deb;
+}
+#btn-login:hover {
+  background: #2e3dbd;
+}
+
+ul.navbar-nav > li.nav-item > a.nav-link { color: #3b4deb }
+ul.navbar-nav > li.nav-item > a.nav-link:hover { 
+  color: #1d277c;
+}
+ul.navbar-nav > li.nav-item.active > a.nav-link { 
+  color: #1d277c;  
+}
+ul.navbar-nav > li.nav-item.active > a.nav-link::after { 
+  transform: scale(1);
+}
+a.nav-link::after {
+  content: '';
+  display: block;
+  width: 100%;
+  background-color: #1d277c;
+  height: 1px;
+  transition: all .3s;
+  transform: scale(0);
+}
+a.nav-link:hover::after  {
+  transform: scale(1);
+}
+
+/**
+ * Bootstrap Carousel
+ */
+.carousel-item {
+  /* height: 30rem */
+}
+
+
+/* Footer */
+footer {
+  background: #100f10;
+  color: white;
+}
+
+footer .navbar-footer li {
+  /* margin: 0; */
+  padding: 0;
+}
